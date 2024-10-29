@@ -1,0 +1,27 @@
+dateModified: 1730209800
+email:
+  fromEmail: jason@sauerwald.info
+  fromName: do-mc
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0f3aa056-8d9c-4a66-8f0f-ab4c0c68880b: do-mc # do-mc
+    646dbe02-0ff8-43dd-a7b9-1f9931fa22cf: do-mc # do-mc
+plugins:
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: do-mc
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: de-DE
+name: do-mc
+primary: true
+siteGroup: 646dbe02-0ff8-43dd-a7b9-1f9931fa22cf # do-mc
+sortOrder: 1

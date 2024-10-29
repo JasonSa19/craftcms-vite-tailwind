@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Willkommen auf {{ siteName }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    {% if craft.vite.devServerRunning() %}
+    <link rel="stylesheet" href="{{ craft.vite.asset("src/css/app.css") }}">
+    {% endif %}
+    {{ craft.vite.script('src/js/app.js', false) }}
+</head>
+
+  <body class="mx-auto max-w-screen-2xl">
+    <header class="flex justify-center py-12"><h1 class="text-4xl font-bold">Willkommen auf {{ siteName }}</h1></header>
+  </body>
+</html>
