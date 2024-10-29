@@ -13,6 +13,7 @@ cd craftcms-vite-tailwind
 
 ## 3. Step: Start DDEV environment and launch to visit the site
 ```
+ddev config
 ddev start
 ddev launch
 ```
