@@ -21,16 +21,19 @@ web_extra_exposed_ports:
       https_port: 3001
 ```
 
-
-
-## 4. Step: Start DDEV environment and launch to visit the site
+## 4. Step: Configure DDEV and follow the steps:
 ```
 ddev config
+```
+
+
+## 5. Step: Start DDEV environment and launch to visit the site
+```
 ddev start
 ddev launch
 ```
 
-## 5. Step: install node_modules
+## 6. Step: install node_modules
 ```
 ddev npm install
 ```
