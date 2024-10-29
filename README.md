@@ -6,12 +6,18 @@
 git clone git@github.com:JasonSa19/craftcms-vite-tailwind.git
 ```
 
-## 2. Step: Configurate DDEV
+## 2. Step: switch to cloned project and configurate DDEV
 ```
-ddev config
+cd craftcms-vite-tailwind
 ```
 
-## 2. Step: install node_modules
+## 3. Step: Start DDEV environment and launch to visit the site
+```
+ddev start
+ddev launch
+```
+
+## 4. Step: install node_modules
 ```
 ddev npm install
 ```
