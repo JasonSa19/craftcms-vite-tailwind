@@ -1,4 +1,4 @@
-name: do-mc
+name: craftcms-vite-tailwind
 type: craftcms
 docroot: web
 php_version: "8.2"
