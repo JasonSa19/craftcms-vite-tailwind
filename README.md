@@ -11,35 +11,27 @@ git clone git@github.com:JasonSa19/craftcms-vite-tailwind.git
 cd craftcms-vite-tailwind
 ```
 
-## 3. Step: Add Port settings to the config.yaml in the .ddev folder:
 
-```
-web_extra_exposed_ports:
-    - name: vite
-      container_port: 3000
-      http_port: 3000
-      https_port: 3001
-```
-
-## 4. Step: Configure DDEV and follow the steps:
+## 3. Step: Configure DDEV and follow the steps:
 ```
 ddev config
 ```
 
 
-## 5. Step: Start DDEV environment and launch to visit the site
+## 4. Step: Start DDEV environment and launch to visit the site
 ```
 ddev start
 ddev launch
 ```
 
-## 6. Step: install node_modules
+## 5. Step: install node_modules and composer dependencies
 ```
+ddev composer install
 ddev npm install
 ```
 
 
-### Start local-staging with code-watching and hmr:
+### 6. Start local-staging with code-watching and hmr:
 
 ```
 ddev npm run dev
